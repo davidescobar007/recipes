@@ -24,5 +24,13 @@ export const recipeList: CardType[] = [
     picture: "/picture3.jpg",
     ingredients:
       "1/3 cup sugar, 1/3 cup packed brown sugar, 1/4 cup all-purpose flour, 1 teaspoon ground cinnamon, 1/4 teaspoon ground ginger, 1/4 teaspoon ground nutmeg,  7 cups thinly sliced peeled tart apples, 1 tablespoon lemon juice, 1 tablespoon butter,1 large egg white"
+  },
+  {
+    avatar: "C",
+    title: "Chicken Curry",
+    alt: "Chicken Curry",
+    picture: "/picture2.jpg",
+    ingredients:
+      "1 pound boneless chicken breast, 2 tablespoons vegetable oil, 1 medium onion, 2 garlic cloves, 1 tablespoon curry powder, 1 teaspoon cumin, 1 teaspoon turmeric, 1 teaspoon paprika, 1 teaspoon salt, (14 oz) coconut milk, 2 cups cooked white rice"
   }
 ]

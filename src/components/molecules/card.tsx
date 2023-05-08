@@ -26,7 +26,7 @@ export default function RecipeReviewCard({
     dispatch(fetchRecipe(parsedRecipe))
   }
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 250 }}>
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" sx={{ bgcolor: red[500] }}>
@@ -35,7 +35,7 @@ export default function RecipeReviewCard({
         }
         title={title}
       />
-      <CardMedia alt={alt} component="img" height="194" image={picture} />
+      <CardMedia alt={alt} component="img" height="150" image={picture} />
 
       <CardActions disableSpacing>
         <UiButton onClick={onSubmitHandler}>See Nutrients</UiButton>

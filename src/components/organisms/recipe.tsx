@@ -29,7 +29,8 @@ export default function RecipeOrganism(): JSX.Element {
       container
       direction="row"
       justifyContent="space-evenly"
-      padding={15}
+      paddingTop={5}
+      paddingX={4}
       spacing={2}
     >
       <Form />

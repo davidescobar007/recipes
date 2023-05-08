@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-component-props */
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client"
 
@@ -25,8 +26,8 @@ export default function Form(): JSX.Element {
 
   return (
     <form onSubmit={onSubmitHandler}>
-      <FormControl>
-        <Stack direction="row" spacing={2}>
+      <FormControl style={{ marginBottom: "30px" }}>
+        <Stack direction="row" marginY={2} spacing={2}>
           <UiTextField name="recipeField" />
           <UiButton buttonType="submit">Search</UiButton>
         </Stack>
