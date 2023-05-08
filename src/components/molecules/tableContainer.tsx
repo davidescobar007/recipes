@@ -9,25 +9,21 @@ import TableContainer from "@mui/material/TableContainer"
 import TableHead from "@mui/material/TableHead"
 import TableRow from "@mui/material/TableRow"
 
-import Row from "./tableRow"
+import { Children } from "@/utils/types"
 
-export default function UiTable() {
+export default function UiTable({ children }: Children): JSX.Element {
   return (
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
         <TableHead>
           <TableRow>
-            <TableCell align="right">Qty</TableCell>
-            <TableCell align="right">Unit</TableCell>
-            <TableCell align="right">Food</TableCell>
-            <TableCell align="right">Nutrients</TableCell>
+            <TableCell align="left">Qty</TableCell>
+            <TableCell align="left">Unit</TableCell>
+            <TableCell align="left">Food</TableCell>
+            <TableCell align="left">Nutrients</TableCell>
           </TableRow>
         </TableHead>
-
-        <TableBody>
-          {/* to be changed for real data from api */}
-          <Row row={[1, 2]} />
-        </TableBody>
+        <TableBody>{children}</TableBody>
       </Table>
     </TableContainer>
   )

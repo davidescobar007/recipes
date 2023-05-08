@@ -8,9 +8,9 @@ interface Props {
 export default function Row({ row }: Props) {
   return (
     <TableRow>
-      {row.map((item) => (
+      {row?.map((item) => (
         <TableCell align="right" key={item}>
-          {item}
+          {item.quantity}
         </TableCell>
       ))}
     </TableRow>

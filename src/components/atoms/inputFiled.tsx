@@ -2,10 +2,10 @@
 
 import TextField from "@mui/material/TextField"
 
-export default function UiTextField(): JSX.Element {
+export default function UiTextField({ ...rest }): JSX.Element {
   return (
     <TextField
-      id="outlined-basic"
+      {...rest}
       label="Recipe"
       placeholder="Type your recipes"
       variant="outlined"

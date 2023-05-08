@@ -1,3 +1,25 @@
+## This prject was made with Next JS and React +18 and Typescript
+
+Redux tool kit is being used for state management.
+Atom desing methodology is being used as well.
+
+Layered architecture is implemented
+
+1. Presentation Layer: responsible for the user interface of the application
+2. Application Layer: the business logic of the application
+3. Data Access Layer: responsible for accessing the data storage system
+
+Design-patterns implemented:
+-Creational Design Patterns
+-Structural Design Patterns
+-Behavioral Design Patterns
+
+**Steps to reproduce:**
+-npm install
+-npm run dev
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

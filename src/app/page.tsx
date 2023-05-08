@@ -1,9 +1,9 @@
-import RecipeOrganism from "@/components/organisms/recipe"
+import RecipeTemplate from "@/components/templates/recipeTemplate"
 
 export default function Home() {
   return (
     <main>
-      <RecipeOrganism />
+      <RecipeTemplate />
     </main>
   )
 }
