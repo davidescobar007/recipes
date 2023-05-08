@@ -1,0 +1,11 @@
+"use client"
+
+import { Provider } from "react-redux"
+
+import { Props } from "@/components/atoms/types"
+
+import { store } from "./store"
+
+export function Providers({ children }: Props) {
+  return <Provider store={store}>{children}</Provider>
+}
