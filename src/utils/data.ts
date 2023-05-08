@@ -29,7 +29,7 @@ export const recipeList: CardType[] = [
     avatar: "C",
     title: "Chicken Curry",
     alt: "Chicken Curry",
-    picture: "/picture2.jpg",
+    picture: "/picture4.jpg",
     ingredients:
       "1 pound boneless chicken breast, 2 tablespoons vegetable oil, 1 medium onion, 2 garlic cloves, 1 tablespoon curry powder, 1 teaspoon cumin, 1 teaspoon turmeric, 1 teaspoon paprika, 1 teaspoon salt, (14 oz) coconut milk, 2 cups cooked white rice"
   }
